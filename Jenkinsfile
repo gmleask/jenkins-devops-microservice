@@ -5,6 +5,7 @@ pipeline {
 		docker {
 			image 'maven:3.6.3'
 		}
+		//docker { image 'node:13.8' }
 	}
 	stages {
 		stage('Build') {
